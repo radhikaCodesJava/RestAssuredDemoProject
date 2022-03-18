@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite1" verbose="10" parallel ="false" thread-count="5">
+  <!-- <parameter browser1="selenium.browser" value="*chrome" /> -->
+ <!-- <parameter browser2="selenium.browser" value="*firefox" /> -->
+  <test name="myLMStest">
+    <classes>
+    <class name="Lms_API.LMS_Get"> </class>
+<!--<class name="Lms_API.LMS_Post"> </class>
+<class name="Lms_API.LMS_Put"> </class>
+<class name="Lms_API.LMS_Delete"> </class>  -->
+</classes>
+  </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="myLMStest(failed)" verbose="0">
+    <classes>
+      <class name="Lms_API.LMS_Get">
+        <methods>
+          <include name="getAllPrograms"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Lms_API.LMS_Get -->
+    </classes>
+  </test> <!-- myLMStest(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->
