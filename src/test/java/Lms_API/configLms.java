@@ -36,15 +36,9 @@ public class configLms {
 			}
 			
 			base_url = properties.getProperty("lms_base_url");
-			userName = properties.getProperty("USERNAME");
-			password = properties.getProperty("PASSWORD");
-			filePath = properties.getProperty("EXCEL_PATH");
 			
-			
-			System.out.println(userName);
-			System.out.println(password);
 			System.out.println(base_url);
-			System.out.println(filePath);
+			
 	    }
 	}
 

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Jobs_API.Jobs_Get">
+      <class name="Lms_API.LMS_Get">
         <methods>
-          <include name="initializations"/>
-          <include name="getAllJobs"/>
+          <include name="initalizations"/>
+          <include name="getProgramById"/>
         </methods>
-      </class> <!-- Jobs_API.Jobs_Get -->
+      </class> <!-- Lms_API.LMS_Get -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

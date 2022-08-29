@@ -1,12 +1,5 @@
 package Jobs_API;
 
-
-
-
-
-
-
-
 import java.util.LinkedHashMap;
 
 import java.util.Set;

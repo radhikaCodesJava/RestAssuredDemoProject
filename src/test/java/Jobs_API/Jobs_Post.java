@@ -86,6 +86,8 @@ public class Jobs_Post {
 					String valuein = innerKeys.get(innerKey).toString();
 					System.out.println(innerKey +":" + valuein +"\n");
 				}
+				
+			}
 				// converting innerKeys from hashmap to set and printing
 				Set<String> innerAllSubKeys = innerKeys.keySet();
 				
@@ -107,7 +109,20 @@ public class Jobs_Post {
 						   for (String s : innerAllSubKeys) {
 							    lastKey = s;
 							}
-			}
+						   
+						   System.out.println("last key is :"+lastKey);
+						   
+						   //asserting last key data
+						  // Assert.assertEquals(innerKeys.get(lastKey).toString(), Id);
+						 //  Assert.assertEquals(innerAllSubKeys.get("Job Id"), null);
+						   
+						   /*Assert.assertEquals(JobTitleMap.get(lastId),title);
+							 Assert.assertEquals(JobCompanyMap.get(lastId),name);
+							 Assert.assertEquals(JobLocationMap.get(lastId),location);
+							 Assert.assertEquals(JobTypeMap.get(lastId),type);
+							 Assert.assertEquals(JobTimeMap.get(lastId),time);
+							 Assert.assertEquals(JobDescMap.get(lastId),desc);*/
+			
 	}
 
 }
